@@ -123,16 +123,16 @@ const Header = () => {
             >
               <li>
                 {" "}
-                <Link href="/donations">Home</Link>
+                <Link href="/">Home</Link>
               </li>
              
               <li>
                 {" "}
-                <Link href="/community">About Us</Link>{" "}
+                <Link href="/about">About Us</Link>{" "}
               </li>
               <li>
                 {" "}
-                <Link href="/volunteer">Contact Us </Link>
+                <Link href="/contact">Contact Us </Link>
               </li>
             </ul>
           </Container>
