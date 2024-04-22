@@ -1,0 +1,19 @@
+.detailsBtn {
+    background: #018549;
+    color: #fff;
+    height: 30px;
+    border-radius: 3px;
+    width: 100px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .addToCartBtn{
+    width:180px;
+    height:45px;
+    border-radius: 30px;
+    background:#018549;
+    color:#fff;
+    cursor:pointer;
+    font-size: 14px;
+}

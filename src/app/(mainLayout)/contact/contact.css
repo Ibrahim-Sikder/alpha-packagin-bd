@@ -1,0 +1,35 @@
+.address {
+    background: #EFFDFC;
+    width: 380px;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+  
+  }
+  .address:nth-child(1){
+    border-bottom-right-radius: 100px;
+  }
+  .address:nth-child(2){
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+  .address:nth-child(3){
+    border-top-left-radius: 100px;
+  }
+  
+  .contactForm input , .contactForm textarea{
+    border: 1px solid #ddd;
+  }
+  .contactForm button{
+    background:#018549;
+    color:#fff;
+  }
+  .contactForm input:focus ,  .contactForm textarea:focus{
+    outline:none
+  }
+ .contactForm textarea:focus{
+    resize: none;
+  }

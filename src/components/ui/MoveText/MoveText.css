@@ -1,0 +1,14 @@
+.moveText{
+    width: 100%;
+    height: 58px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    border: 1px solid #4ab449;
+    box-shadow: rgba(22, 241, 59, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 99 !important;
+    position: relative;
+    background: radial-gradient(black, transparent);
+    background: #19ABE3;
+  }

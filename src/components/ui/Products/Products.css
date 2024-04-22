@@ -1,0 +1,76 @@
+.productCard {
+  width: 290px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.productCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.productCardImgWrap {
+  height: 250px;
+  width: 210px;
+}
+.hideImg,
+.showImg {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.hideImg {
+  display: none;
+}
+.productCard:hover .hideImg {
+  display: block;
+}
+.productCard:hover .hideImg {
+  opacity: 1;
+  visibility: visible;
+}
+.productCard:hover .showImg {
+  display: none;
+}
+.iconsWrap {
+  width: 30px;
+  background: #fff;
+  color: #111;
+  border-radius: 100%;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+.iconWraps {
+  position: absolute;
+  top: -130px;
+  right: 11px;
+  transition: all 0.5s cubic-bezier(0.49, 0.52, 0.63, 0.65);
+}
+.productCard:hover .iconWraps {
+  top: 13px;
+}
+
+@media only screen and (max-width:1024px){
+  .productCard {
+    width: 315px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .productCard {
+      width: 333px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .productCard {
+    width: 84%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .productCard {
+    width: 100%;
+  }
+}

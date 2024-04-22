@@ -1,0 +1,11 @@
+.keen-slider__slide{
+ 
+    padding:10px;
+    border-radius: 3px;
+}
+
+.thumbnail .keen-slider__slide.active {
+    border-bottom: 2px solid #018549;
+}.startIcon{
+    color:#FEBC0C;
+}
