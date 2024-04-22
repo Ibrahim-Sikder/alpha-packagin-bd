@@ -27,15 +27,15 @@ export default function HeroSection() {
     loop: true, // Enable looping
   });
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (instanceRef.current) {
-        instanceRef.current.next();
-      }
-    }, 5000); // Change the interval duration as needed (2000 ms = 2 seconds)
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (instanceRef.current) {
+  //       instanceRef.current.next();
+  //     }
+  //   }, 5000); // Change the interval duration as needed (2000 ms = 2 seconds)
 
-    return () => clearInterval(interval);
-  }, [instanceRef]);
+  //   return () => clearInterval(interval);
+  // }, [instanceRef]);
   return (
     <Container className="heroSectionContainer mt-0 lg:mt-10">
       <div className="heroSectionWraps ">
@@ -83,7 +83,7 @@ export default function HeroSection() {
               </>
             )}
           </div>
-          {loaded && instanceRef.current && (
+          {/* {loaded && instanceRef.current && (
             <div className="dots">
               {[
                 ...Array(
@@ -101,7 +101,7 @@ export default function HeroSection() {
                 );
               })}
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </Container>

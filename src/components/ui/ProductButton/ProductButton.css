@@ -1,5 +1,5 @@
 .detailsBtn {
-    background: #018549;
+  background: #018549;
     color: #fff;
     height: 30px;
     border-radius: 3px;
@@ -7,6 +7,7 @@
     justify-content: center;
     margin-top: 10px;
     font-size: 14px;
+    width: 100%;
   }
   .addToCartBtn{
     width:180px;

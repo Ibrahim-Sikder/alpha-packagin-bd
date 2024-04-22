@@ -79,10 +79,10 @@ const Header = () => {
                     {" "}
                     <Link href="/"> Home</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
                     <Link href="/">Printed Gum Tape</Link>
-                  </li>
+                  </li> */}
                   <li>
                     {" "}
                     <Link href="/about">About Us</Link>{" "}
@@ -91,17 +91,17 @@ const Header = () => {
                     {" "}
                     <Link href="/contact">Contact Us</Link>{" "}
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
                     <Link href="/about">Blog </Link>{" "}
-                  </li>
+                  </li> */}
                 </ul>
 
-                <div className="flex items-center logOutBtnWrap">
+                {/* <div className="flex items-center logOutBtnWrap">
                   <div>
                     <button className="logoutBtn text-black">Log In</button>
                   </div>
-                </div>
+                </div> */}
               </nav>
               <button onClick={toggleMobileMenu} className="cursor-pointer">
                 {toggle ? (
@@ -123,23 +123,16 @@ const Header = () => {
             >
               <li>
                 {" "}
-                <Link href="/donations">All Donations</Link>
+                <Link href="/donations">Home</Link>
+              </li>
+             
+              <li>
+                {" "}
+                <Link href="/community">About Us</Link>{" "}
               </li>
               <li>
                 {" "}
-                <Link href="/volunteer">Volunteer</Link>
-              </li>
-              <li>
-                {" "}
-                <Link href="/community">Community</Link>{" "}
-              </li>
-              <li>
-                {" "}
-                <Link href="/leaderboard">Leader Board</Link>{" "}
-              </li>
-              <li>
-                {" "}
-                <Link href="/about-us">About Us </Link>{" "}
+                <Link href="/volunteer">Contact Us </Link>
               </li>
             </ul>
           </Container>

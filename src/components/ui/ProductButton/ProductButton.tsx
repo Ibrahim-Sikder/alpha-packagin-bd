@@ -15,7 +15,7 @@ const ProductButton = () => {
         <button>Details </button>
         <HiOutlineArrowNarrowRight className="ml-2" size={20} />
       </div>
-      {open && <TopRatedModal onClose={handleClose} />}
+      {/* {open && <TopRatedModal onClose={handleClose} />} */}
     </>
   );
 };

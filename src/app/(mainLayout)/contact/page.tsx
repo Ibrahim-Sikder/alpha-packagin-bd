@@ -85,7 +85,7 @@ const page = () => {
             </button>
           </form>
         </div>
-          <div className="grid grid-cols-1 gap-10 md:grid-cols-3 place-items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:grid-cols-2 place-items-center">
             {addressData.map((address) => (
               <div key={address.id} className="address">
                 <Image src={address.img} alt="address" />
